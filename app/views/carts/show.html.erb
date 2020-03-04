@@ -4,8 +4,8 @@
     <h1>My Cart</h1>
   </header>
   <% if enhanced_cart.empty? %>
-  <span>Your cart is empty! Go to </span>
-  <%= link_to 'Home', :root %>
+  <div class="alert alert-info">Your cart is empty!</div>
+  <%= link_to 'Go Back Home', :root %>
 
   <% else %>
   <div class="panel panel-default items">
