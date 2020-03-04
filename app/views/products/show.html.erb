@@ -12,7 +12,7 @@
         <%= image_tag @product.image.url, class: 'main-img' %>
       </div>
 
-    <%= render 'product_details' %>
+    <%= render 'product_details', product: @product %>
     </div>
 
   </article>
